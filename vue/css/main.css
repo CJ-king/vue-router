@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.login-cont{
+    text-align: center;
+    font-size: 40px;
+    color: #66CCFF;
+}
+.main-box{
+    
+}
+.head{
+    height: 50px;
+    background-color: #66CCFF;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+}
+.head .login{
+    float: right;
+    font-size: 16px;
+    margin-right: 30px;
+}
+.container{
+    position: relative;
+}
+.container .menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    max-height: 450px;
+    background-color: #FFCC33;
+    
+}
+.menu li{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.menu li a{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+}
+.menu li:hover{
+    background-color: #3399CC;
+}
+.menu li:hover a{
+    color: #FFF;
+}
+.menu .active{
+    background-color: #3399CC;
+}
+.menu .active a{
+    color: #FFF;
+}
+.container .content{
+    height: 500px;
+    margin-left: 200px;
+    background-color: #CC6666;
+    font-size: 40px;
+    text-align: center;
+}
